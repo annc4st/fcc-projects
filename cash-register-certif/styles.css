@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-blue: #4889af;
+    --light-grey: #f5f6f7;
+    --black: #000;
+    --white: #fff;
+    --grey: #3b3b4f;
+    --golden-yellow: #fecc4c;
+    --yellow: #ffcc4c;
+    --gold: #feac32;
+    --orange: #ffac33;
+    --dark-orange: #f89808;
+  }
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--black);
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    color: var(--yellow);
+}
+.input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+}
+
+.user-input {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+.price-screen {
+    border: 10px solid #99c9ff;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    margin-left: -40px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    background-color: #99c9ff;
+    height: 350px;
+    width: 425px;
+}
+.btns-container {
+    width: 25%;
+}
+.check-btn-styles {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: #0a0a23;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--yellow);
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+}
+.btn{
+    border-radius: 10%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+#change-due {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.cash-drawer-display {
+    font-size: 1.1rem;
+    background-color: white;
+    width: 65%;
+    height: 95%;
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+}
